@@ -1,0 +1,19 @@
+{
+  "report_type": "S3 Compliance Check",
+  "timestamp": "2026-06-26_17-31-18",
+  "account": "868832438584",
+  "results": [
+    {
+      "bucket": "oraclerecon-grc-test-bucket",
+      "encryption": "PASS",
+      "public_access": "FAIL",
+      "versioning": "FAIL",
+      "overall": "FAIL"
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 1,
+    "total": 1
+  }
+}
