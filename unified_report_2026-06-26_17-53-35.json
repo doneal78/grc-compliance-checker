@@ -1,0 +1,50 @@
+{
+  "report_type": "Unified AWS GRC Compliance Report",
+  "timestamp": "2026-06-26_17-53-35",
+  "account": "868832438584",
+  "generated_by": "OracleRecon GRC Compliance Checker",
+  "s3_results": [
+    {
+      "bucket": "oraclerecon-grc-test-bucket",
+      "encryption": "PASS",
+      "public_access": "FAIL",
+      "versioning": "FAIL",
+      "overall": "FAIL"
+    }
+  ],
+  "iam_results": {
+    "password_policy": {
+      "status": "FAIL",
+      "details": {
+        "error": "No password policy configured"
+      }
+    },
+    "mfa": {
+      "status": "FAIL",
+      "details": [
+        {
+          "user": "grc-engineer",
+          "mfa_enabled": false
+        }
+      ]
+    },
+    "root_access_keys": {
+      "status": "PASS"
+    },
+    "inactive_users": {
+      "status": "PASS",
+      "details": []
+    }
+  },
+  "summary": {
+    "s3_passed": 0,
+    "s3_failed": 1,
+    "iam_passed": 2,
+    "iam_failed": 2,
+    "total_passed": 2,
+    "total_failed": 3,
+    "total_checks": 5,
+    "compliance_score": "40%",
+    "rating": "AT RISK"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "report_type": "IAM Compliance Check",
+  "timestamp": "2026-06-26_17-53-36",
+  "account": "868832438584",
+  "results": {
+    "password_policy": {
+      "status": "FAIL",
+      "details": {
+        "error": "No password policy configured"
+      }
+    },
+    "mfa": {
+      "status": "FAIL",
+      "details": [
+        {
+          "user": "grc-engineer",
+          "mfa_enabled": false
+        }
+      ]
+    },
+    "root_access_keys": {
+      "status": "PASS"
+    },
+    "inactive_users": {
+      "status": "PASS",
+      "details": []
+    }
+  },
+  "summary": {
+    "passed": 2,
+    "failed": 2,
+    "total": 4
+  }
+}
