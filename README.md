@@ -87,8 +87,8 @@ Each run produces a timestamped JSON report and a color-coded terminal table. Th
 
 ## Related projects
 
-Project 3 Terraform Baseline: https://gitlab.com/doneal78-group/grc-engineering-portfolio/grc-terraform-baseline
+Project 3 Terraform Baseline: https://github.com/doneal78/grc-terraform-baseline
 
 The Terraform baseline fixes the findings this tool identifies. Running this checker before and after applying the baseline shows the compliance score improvement in real numbers.
 
-Full portfolio: https://gitlab.com/doneal78-group/grc-engineering-portfolio
+Full portfolio: https://github.com/doneal78
